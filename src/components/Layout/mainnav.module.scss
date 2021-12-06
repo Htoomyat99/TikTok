@@ -1,0 +1,83 @@
+@import "../../../styles/colors/color";
+
+.container {
+    background-color: $color-nav-background;
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.23);
+}
+.imageContainer {
+    a {
+        font-size: 27px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+}
+.inputContainer {
+    background-color: $color-input-Container;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 340px;
+    input {
+        background-color: $color-input-Container;
+        padding: 15px;
+        width: 85%;
+        border: none;
+        font-size: 15px;
+        outline: none;
+    }
+    button {
+        width: 14%;
+        border: none;
+        cursor: pointer;
+        border-left: 1px solid #c0bfbc;
+        padding-left: 2px;
+        &:hover {
+            background-color: $color-input-Container-button-hover;
+        }
+    }
+    @media (max-width:700px) {
+        display: none; 
+    }  
+}
+.restContainer {
+    /* background-color: #c0bfbc; */
+    height: 45px;
+    width: 220px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.uploadContainer {
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 15px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.loginContainer {
+    background-color: $color-login-Container;
+    width: 49%;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.96rem;
+    color: $color-nav-background;
+    font-weight: 600;
+    margin-right: 15px; 
+    &:hover {
+        background-color: $color-login-Container-hover;
+    }
+}
+.iconContent {
+    cursor: pointer;
+}

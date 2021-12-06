@@ -1,0 +1,96 @@
+@import '../../../styles/colors/color';
+
+.modalBody {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-body-background;
+}
+.modalContent {
+    background-color: $color-nav-background;
+    width: 430px;
+    height: 555px;
+    border-radius: 15px;
+    padding : 15px 30px;
+    .para {
+      color: #a1a2a7;
+      font-size: 0.7rem;
+      text-align: center;
+      b{
+        color: #2d2f39;
+    }
+    }
+}
+.closeModelContent {
+  // background-color: green;
+  width: 390px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  .backIcon {
+    padding-top: 8px;
+    cursor: pointer;
+  }
+  a{
+   background-color: $color-input-Container;
+   cursor: pointer;
+   margin-right: 10px;
+   width: 35px;
+   height: 35px;
+   padding: 6px 13px;
+   border-radius: 20px;
+   &:hover {
+    background-color: $color-input-Container-button-hover;
+  }
+  }
+}
+.modalContentItem {
+  // background-color: red;
+  height: 390px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  h3{
+    // background-color: lightblue;
+    font-size: 1.5rem;
+    font-weight: 640;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .modalContainer {
+    // background-color: yellow;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+
+.footerContent {                             
+  // background-color: yellow;
+  height: 50px;
+  width: 430px;
+  padding-left: 30px;
+  margin-top: -55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #e3e3e4;
+  div{
+    margin-left: 5px;
+    color: $color-SignUp;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+}
+

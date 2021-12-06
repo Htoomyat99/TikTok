@@ -1,0 +1,50 @@
+.qrContainer {
+    // background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 15px;
+    height: 360px;
+    margin-top: -10px;
+}
+.qrContent {
+    // background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qrTextContainer {
+    // background-color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 7px;
+    p{
+        margin: 5px 0px;
+    }
+}
+.barcodeContent {
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.instructContent {
+    // background-color: lightgoldenrodyellow;
+    height: 20px;
+    width: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    cursor: pointer;
+    .questionIcon {
+        margin-top: 3px;
+    }
+    div {
+        color: #fe2c55;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+}

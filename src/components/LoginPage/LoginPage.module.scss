@@ -1,0 +1,35 @@
+.loginContainer {
+    // background-color: lightblue;
+    width: 310px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c0bfbc;
+    margin-bottom: 12px;
+}
+.loginIconContainer {
+    // background-color: yellow;
+    cursor: pointer;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #c0bfbc;
+}
+.loginTextContainer {
+    // background-color: white;
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.apiContainer {
+    // background-color: red;
+    margin-top: -10px;
+    height: 326px;
+    text-align: center;
+}
+
+

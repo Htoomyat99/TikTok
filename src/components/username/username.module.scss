@@ -1,0 +1,128 @@
+
+.LoginContainer {
+    // background-color: lightblue;
+    height: 250px;
+    width: 330px;
+}
+.LoginContent {
+    // background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 5px;
+    .phoneContent {
+        font-size: 0.9rem;
+    }
+    .usernameContent {
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+}
+.phoneContainer {
+    background-color: #f1f1f2;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #e4e4e6;
+    margin-bottom: 10px;
+}
+.regionContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    cursor: pointer;
+    padding: 10px;
+}
+.spaceContent p {
+    background-color: #d7d7d9;
+    width: 1px;
+    height: 30px;
+    margin-left: 5px;
+}
+.searchContent input {
+    background-color: #f1f1f2;
+    font-size: 0.95rem;
+    width: 200px;
+    padding: 10px 15px; 
+    border: none;
+    outline: none;
+}
+.codeContainer {
+    background-color: #f1f1f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #e4e4e6;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+    input {
+        background-color: #f1f1f2;
+        width: 60%;
+        padding: 11px;
+        font-size: 0.95rem;
+        border: none;
+        outline: none;
+    }
+    label{
+        background-color: #ffff;
+        color: #717379;
+        width: 40%;
+        padding: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        border-left: 1px solid #e3e3e4;
+        cursor: pointer;
+    }  
+}
+.passwordContent {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    color: #717379;
+    font-weight: 600;
+    label {
+        cursor: pointer;
+    }
+}
+.loginBarContent {
+    background-color: #f1f1f2;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #717379;
+    font-weight: 400;
+    cursor: pointer;
+}
+.imagestyle {
+    padding-right: 10px;
+    cursor: pointer;
+}
+.forgotPassword {
+    // background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    color: #717379;
+    font-weight: 600;
+    label {
+        cursor: pointer;
+    }
+    p {
+    background-color: #d7d7d9;
+    width: 1px;
+    height: 12px;
+    margin: 0px 10px;
+    }
+}
